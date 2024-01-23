@@ -1,22 +1,17 @@
 import { BrowserRouter } from 'react-router-dom' 
 import './App.css'
-import { RenderRoutes, RenderMenu } from './structure/RenderNavigation'
-import { RenderHeader } from './structure/Header'
+import { AuthWrapper } from './auth/AuthWrapper'
 
 function App() {
- 
-
   return (
     <>
       <div className="App">
         <BrowserRouter>
-          <RenderHeader />
-          <RenderMenu />
-          <RenderRoutes />
+          <AuthWrapper />
         </BrowserRouter>
       </div>
     </>
   )
 }
-
 export default App
+
