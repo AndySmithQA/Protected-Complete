@@ -35,6 +35,7 @@ a{
 
 .page {
   padding: 30px;
+  text-align: center;
 }
 
 .page h2 {
@@ -43,4 +44,26 @@ a{
 
 .page p {
   text-align: center;
+}
+
+.inputs {
+  text-align: center;
+  height: 30px;
+}
+
+.inputs .input input {
+  height: 30px;
+  width: 300px;
+  margin: 5px 0;
+}
+
+
+button {
+  text-align: center;
+  background-color: lightblue;
+  border: none;
+  padding: 15px 30px;
+  color: #fff;
+  width: 308px;
+  margin: 10px 0;
 }
