@@ -1,0 +1,46 @@
+.header {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.header h1 {
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+}
+.logo {
+    float: left;
+    padding: auto;
+}
+img{
+  width: 60px;
+}
+
+.menu {
+  background-color: lightblue;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.menu .menuItem {
+  display: inline-block;
+  margin: 0 30px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.page {
+  padding: 30px;
+}
+
+.page h2 {
+  text-align: center;
+}
+
+.page p {
+  text-align: center;
+}
